@@ -68,55 +68,55 @@ ylabel('m');
 %% Plot EW
 subplot (311);
 plot(e,'b');
-title('EW Tehoru Acceleration');
+title('EW Acceleration');
 xlabel('Time');
 ylabel('m/s2');
 
 subplot (312);
 plot(ev,'b');
-title('EW Tehoru Velocity');
+title('EW Velocity');
 xlabel('Time');
 ylabel('m/s');
 
 subplot (313);
 plot(ep,'b');
-title('EW Tehoru Displacement');
+title('EW Displacement');
 xlabel('Time');
 ylabel('m');
 %% Plot NS
 subplot (311);
 plot(n,'b');
-title('NS Tehoru Acceleration');
+title('NS Acceleration');
 xlabel('Time');
 ylabel('m/s2');
 
 subplot (312);
 plot(nv,'b');
-title('NS Tehoru Velocity');
+title('NS Velocity');
 xlabel('Time');
 ylabel('m/s');
 
 subplot (313);
 plot(np,'b');
-title('NS Tehoru Displacement');
+title('NS Displacement');
 xlabel('Time');
 ylabel('m');
 
 %% Plot UP
 subplot (311);
 plot(z,'b');
-title(' UP Tehoru Acceleration');
+title(' UP Acceleration');
 xlabel('Time');
 ylabel('m/s2');
 
 subplot (312);
 plot(zv,'b');
-title('UP Tehoru Velocity');
+title('UP Velocity');
 xlabel('Time');
 ylabel('m/s');
 
 subplot (313);
 plot(zp,'b');
-title('UP Tehoru Displacement');
+title('UP Displacement');
 xlabel('Time');
 ylabel('m');
